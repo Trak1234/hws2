@@ -1,13 +1,33 @@
 .sidebar {
+    display: none;
+    z-index: 1;
 }
 
 .sidebar.open {
+    display: block;
+    width: 35vh;
+    height: 100vh;
+    position: fixed;
+    border:none;
+    background-color: rgba(255, 255, 255, 1);
+    
+    
+    
+    
 }
 
 .background {
+    
 }
 
 .nav {
+    display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items:center;
+  
+  
+  
 }
 
 .nav a {
@@ -19,7 +39,23 @@
 .nav a.active {
 }
 .close {
+    
+
 }
 
 .close img {
+    
+}   
+
+
+.Tilt {
+    
+    font-family: Montserrat;
+font-size: 22px;
+font-weight: 600;
+line-height: 26.82px;
+text-align: left;
+color: rgba(0, 89, 178, 1);
+
+    padding: 20px;
 }
